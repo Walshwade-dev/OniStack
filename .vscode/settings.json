@@ -1,0 +1,6 @@
+{
+    "files.autoSaveDelay": 5,
+    "files.autoSave": "afterDelay",
+    "liveServer.settings.wait": 3,
+    "testing.autoRun.delay": 3
+}

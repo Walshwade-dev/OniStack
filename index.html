@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stake counter</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+<body class="flex flex-col text-white">
+        
+    <div class="w-full h-[100%] mx-auto mt-20">
+        <div>
+            <h1 class="font-bold text-2xl">Onion counter</h1>
+            <div>
+                <h2 class="font-semibold">Stack onion net count:</h2>
+                <h3 id="count-el" class="text-2xl"></h3>
+            </div>
+        </div>
+        <div class="flex flex-col justify-center items-center my-3 gap-8">
+            <button id="increment-btn" onclick={increment()}>increment</button>
+            <button id="save-btn" onclick={save()}>Save</button>
+        </div>
+        <div>
+            <div class="flex flex-col gap-2">
+                <h2>Previous entries:</h2>
+                <p id="save-el" class="font-semibold text-xl"></p>
+            </div>
+            <div>
+                <h2>Total of all entries:</h2>
+                <p id="count-sum-el" class="font-semibold text-xl"></p>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="/index.js"></script>
+</html>
